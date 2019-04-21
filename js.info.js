@@ -26,7 +26,7 @@ function post_infoanime(M) {
       J = F.substring(5, 7),
       K = F.substring(8, 10),
       x = new Array;
-    x[1] = "Januari", x[2] = "Februari", x[3] = "Maret", x[4] = "April", x[5] = "May", x[6] = "Juni", x[7] = "Juli", x[8] = "Agustus", x[9] = "September", x[10] = "Oktober", x[11] = "November", x[12] = "Desember",
+     x[1] = "Jan", x[2] = "Feb", x[3] = "Mar", x[4] = "Apr", x[5] = "May", x[6] = "Jun", x[7] = "Jul", x[8] = "Aug", x[9] = "Sep", x[10] = "Oct", x[11] = "Nov", x[12] = "Des",
       document.write('<li class="last-post-item">'), document.write('<span class="t1"><a href="' + j + '" target ="_top">' + E + "</a></span>"), 1 == posts_upto && document.write('<span class="t2">' + K + " " + x[parseInt(J, 10)] + " " + H + "</span>");
     var G = "",
       D = 0;
