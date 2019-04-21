@@ -1,1 +1,1 @@
-# js_info
+# js.info
